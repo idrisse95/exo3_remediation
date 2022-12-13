@@ -22264,6 +22264,10 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+body {
+  overflow: hidden;
+}
+
 #tel {
   font-size: 10px;
   padding: 1%;
