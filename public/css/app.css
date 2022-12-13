@@ -22257,8 +22257,27 @@ textarea.form-control-lg {
   }
 }
 #tout {
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  position: relative;
   height: 90vh;
 }
 
 #fond {
-  position: absol
+  height: 80%;
+  width: 35%;
+  background-image: linear-gradient(rgb(181, 32, 231), rgb(104, 35, 149));
+}
+
+h2, .h2 {
+  color: red;
+}
