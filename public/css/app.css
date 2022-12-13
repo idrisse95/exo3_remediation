@@ -22259,23 +22259,46 @@ textarea.form-control-lg {
 #tout {
   position: absolute;
   z-index: 999;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  left: 12%;
+  height: 100%;
 }
 
-#tel ul {
+#tel {
+  width: 23%;
+  height: 80%;
+  background-color: green;
+}
+
+ul {
   list-style: none;
 }
 
 section {
   position: relative;
-  height: 90vh;
+  height: 100vh;
+}
+
+#text {
+  width: 40%;
 }
 
 #fond {
-  height: 80%;
+  height: 90vh;
   width: 35%;
+  border-radius: 0 0 50% 50%;
   background-image: linear-gradient(rgb(181, 32, 231), rgb(104, 35, 149));
+}
+
+#fond2 {
+  height: 90vh;
+  width: 35%;
+  border-radius: 0 0 50% 50%;
+  background-color: rgba(181, 32, 231, 0.084);
+  transform: rotateZ(180deg);
+  position: absolute;
+  bottom: 0;
+  right: 0%;
 }
 
 h2, .h2 {
