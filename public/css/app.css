@@ -22269,6 +22269,8 @@ body {
 }
 
 #tel {
+  -webkit-animation: animate__bounce;
+          animation: animate__bounce;
   font-size: 10px;
   padding: 1%;
   width: 23%;
