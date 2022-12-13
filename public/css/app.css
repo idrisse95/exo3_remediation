@@ -22327,7 +22327,6 @@ ul {
 section {
   position: relative;
   height: 100vh;
-  overflow: hidden;
 }
 
 #text {
@@ -22358,4 +22357,40 @@ section {
 
 h2, .h2 {
   color: red;
+}
+
+@media screen and (max-width: 376px) {
+  #tout {
+    display: block !important;
+  }
+  #tel {
+    top: 5%;
+    left: 5%;
+    width: 85%;
+    height: 87%;
+  }
+  section {
+    position: static;
+  }
+  body {
+    overflow: unset;
+  }
+  #fond {
+    height: 70vh;
+    width: 80%;
+    left: -35%;
+    position: absolute;
+  }
+  #text {
+    text-align: center;
+    margin: auto !important;
+    height: 100px;
+    padding-top: 20%;
+    width: 100%;
+    font-size: 16px;
+    padding-bottom: 10% !important;
+  }
+  #text #titre {
+    font-size: 30px !important;
+  }
 }
